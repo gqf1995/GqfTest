@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <include layout="@layout/lin_view"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        >
+
+        <EditText
+            android:id="@+id/edi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="top|left"
+            android:hint="请输入内容"
+            android:minHeight="@dimen/dimen_60_dp"
+            android:paddingLeft="@dimen/dimen_10_dp"
+            android:paddingRight="@dimen/dimen_10_dp"
+            android:paddingTop="@dimen/dimen_10_dp"
+            android:textSize="@dimen/dimen_14_sp"
+            android:layout_marginBottom="@dimen/dimen_10_dp"
+            />
+
+
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_35_dp"
+            layout="@layout/default_item_bottom"
+            android:layout_below="@+id/edi"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_35_dp"
+            android:layout_below="@+id/edi"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="@dimen/dimen_15_dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/edi_left_radio"
+                android:layout_width="@dimen/dimen_30_dp"
+                android:layout_height="match_parent"
+                android:button="@drawable/left_radio_sel"
+                />
+            <RadioButton
+                android:id="@+id/edi_center_radio"
+                android:layout_width="@dimen/dimen_30_dp"
+                android:layout_height="match_parent"
+                android:button="@drawable/center_radio_sel"
+                android:layout_marginRight="@dimen/dimen_25_dp"
+                android:layout_marginLeft="@dimen/dimen_25_dp"
+                />
+            <RadioButton
+                android:id="@+id/edi_right_radio"
+                android:layout_width="@dimen/dimen_30_dp"
+                android:layout_height="@dimen/dimen_30_dp"
+                android:button="@drawable/right_radio_sel"
+                />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/dimen_35_dp"
+              android:orientation="horizontal"
+              android:paddingLeft="@dimen/dimen_15_dp"
+    >
+
+
+    <ImageButton
+        android:id="@+id/down_img"
+        android:layout_width="@dimen/dimen_35_dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:src="@drawable/down01"
+        android:layout_marginTop="1dp"
+        android:padding="@dimen/default_ing_padding"
+        />
+
+    <ImageButton
+        android:id="@+id/up_img"
+        android:layout_width="@dimen/dimen_35_dp"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/up01"
+        android:padding="@dimen/default_ing_padding"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+    <ImageButton
+        android:id="@+id/delect_img"
+        android:layout_width="@dimen/dimen_50_dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/dimen_15_dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/delete_dark"
+        android:paddingRight="@dimen/dimen_20_dp"
+        android:paddingLeft="@dimen/dimen_15_dp"
+        android:paddingBottom="@dimen/dimen_10_dp"
+        android:paddingTop="@dimen/dimen_10_dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_8_sp">8sp</dimen>
+    <dimen name="dimen_10_sp">10sp</dimen>
+    <dimen name="dimen_12_sp">12sp</dimen>
+    <dimen name="dimen_14_sp">14sp</dimen>
+    <dimen name="dimen_16_sp">16sp</dimen>
+    <dimen name="dimen_18_sp">18sp</dimen>
+    <dimen name="dimen_20_sp">20sp</dimen>
+    <dimen name="dimen_22_sp">22sp</dimen>
+    <dimen name="dimen_24_sp">24sp</dimen>
+    <dimen name="dimen_26_sp">26sp</dimen>
+    <dimen name="dimen_28_sp">28sp</dimen>
+    <dimen name="dimen_30_sp">30sp</dimen>
+
+
+
+
+    <dimen name="dimen_5_dp">5dp</dimen>
+    <dimen name="dimen_10_dp">10dp</dimen>
+    <dimen name="dimen_15_dp">15dp</dimen>
+    <dimen name="dimen_20_dp">20dp</dimen>
+    <dimen name="dimen_25_dp">25dp</dimen>
+    <dimen name="dimen_30_dp">30dp</dimen>
+    <dimen name="dimen_35_dp">35dp</dimen>
+    <dimen name="dimen_40_dp">40dp</dimen>
+    <dimen name="dimen_45_dp">45dp</dimen>
+    <dimen name="dimen_50_dp">50dp</dimen>
+    <dimen name="dimen_55_dp">55dp</dimen>
+    <dimen name="dimen_60_dp">60dp</dimen>
+    <dimen name="dimen_70_dp">70dp</dimen>
+    <dimen name="dimen_80_dp">80dp</dimen>
+    <dimen name="dimen_90_dp">90dp</dimen>
+    <dimen name="dimen_100_dp">100dp</dimen>
+    <dimen name="dimen_110_dp">110dp</dimen>
+    <dimen name="dimen_120_dp">120dp</dimen>
+
+
+    <dimen name="img_item_max_height">180dp</dimen>
+    <dimen name="default_ing_padding">11dp</dimen>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/dimess_dark_layout_shap" android:state_selected="true"/>
+    <item android:drawable="@drawable/dimess_dark_layout_shap" android:state_pressed="true"/>
+    <item android:drawable="@drawable/dimess_dark_layout_shap" android:state_focused="true"/>
+    <item android:drawable="@drawable/dimess_light_layout_shap"/>
+</selector>

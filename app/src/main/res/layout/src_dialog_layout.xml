@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/radio_layout_shap"
+              android:orientation="vertical"
+    android:layout_marginBottom="@dimen/dimen_20_dp"
+    android:layout_marginLeft="@dimen/dimen_20_dp"
+    android:layout_marginRight="@dimen/dimen_20_dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/src_edi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="top|left"
+            android:minHeight="@dimen/dimen_80_dp"
+            android:textColorHint="@color/font_color04"
+            android:textColor="@color/font_color02"
+            android:hint="请输入网址"
+            android:padding="@dimen/dimen_10_dp"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/font_color04"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ok_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_left_radio_light_dark_sel"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen_15_dp"
+            android:paddingTop="@dimen/dimen_15_dp"
+            android:text="确定"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dimen_18_sp"
+            />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/font_color04"/>
+
+        <TextView
+            android:id="@+id/canal_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_right_radio_light_dark_sel"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen_15_dp"
+            android:paddingTop="@dimen/dimen_15_dp"
+            android:text="取消"
+            android:textColor="@drawable/dark_light_txt_color_sel"
+            android:textSize="@dimen/dimen_18_sp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
